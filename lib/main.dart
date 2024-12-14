@@ -286,7 +286,7 @@ class _MyAppState extends State<MyApp> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 30.0, right: 30.0),
                   child: Text(
-                    'This is where the filter bar can go',
+                    'Pick your poison...',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.amber,
