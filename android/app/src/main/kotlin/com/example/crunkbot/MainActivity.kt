@@ -1,4 +1,4 @@
-package com.example.crunkbot
+package com.crunkbot.app
 
 import io.flutter.embedding.android.FlutterActivity
 

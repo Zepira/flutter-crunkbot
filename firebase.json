@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "flutter-crunkbot",
+          "appId": "1:486440545760:android:63d94295ea58adddb1cf85",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "flutter-crunkbot",
+          "configurations": {
+            "android": "1:486440545760:android:63d94295ea58adddb1cf85",
+            "ios": "1:486440545760:ios:12d550e337dde2a1b1cf85",
+            "macos": "1:486440545760:ios:12d550e337dde2a1b1cf85",
+            "web": "1:486440545760:web:b582179201c66066b1cf85",
+            "windows": "1:486440545760:web:2573e448bc9b6660b1cf85"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
