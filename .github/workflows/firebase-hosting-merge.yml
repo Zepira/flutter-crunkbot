@@ -30,4 +30,6 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLUTTER_CRUNKBOT }}
           channelId: live
           projectId: flutter-crunkbot
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
       - run: firebase deploy
